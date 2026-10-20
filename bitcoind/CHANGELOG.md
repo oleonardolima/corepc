@@ -1,3 +1,8 @@
+# 0.43.1 - 2026-10-20
+
+- Upgrade to `bitreq v0.4.2` to pick up `rustls v0.23.46`, which fixes RUSTSEC-2026-0346,
+  RUSTSEC-2026-0348 and RUSTSEC-2026-0349
+
 # 0.43.0 - 2026-10-20
 
 - Use system `tar` for Bitcoin Core downloads, removing the `tar`, `flate2`, and `zip`

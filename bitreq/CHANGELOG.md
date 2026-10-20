@@ -1,3 +1,7 @@
+# 0.4.2 - 2026-10-20
+
+* Bump the rustls version to v0.23.46 to fix: RUSTSEC-2026-0348, RUSTSEC-2026-0349 and RUSTSEC-2026-0346
+
 # 0.4.1 - 2026-10-20
 
 * Flush requests before reading responses [#705](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/705)
