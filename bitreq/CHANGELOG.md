@@ -1,3 +1,9 @@
+# 0.4.1 - 2026-10-20
+
+* Flush requests before reading responses [#705](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/705)
+* Retry requests on a stale socket when request-sending fails [#692](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/692)
+* Ensure a cancelled request can't stall non-pipelined requests [#695](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/695)
+
 # 0.4.0 - 2026-09-17
 
 * Use `Duration` for `Request::with_timeout` [#642](https://github.com/rust-bitcoin/corepc/pull/642)

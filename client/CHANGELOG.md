@@ -1,3 +1,7 @@
+# 0.18.0 - 2026-10-20
+
+- Make the leaf modules of each `client_sync` version module `pub(crate)` [#715](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/715)
+
 # 0.17.0 - 2026-09-17
 
 - Add a production-ready async Bitcoin Core JSON-RPC client, with `Client`, `Auth`, and typed RPC

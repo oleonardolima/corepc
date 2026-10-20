@@ -1,3 +1,10 @@
+# 0.43.0 - 2026-10-20
+
+- Use system `unzip` for electrs downloads, removing the `zip` dependency [#720](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/720)
+- Upgrade to latest version of `bitcoind` and `corepc-regtest-client`
+
+Automatic downloads now require `unzip` in `PATH`.
+
 # 0.42.0 - 2026-09-17
 
 - Only use the downloaded executable if it exists [#709](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/709)

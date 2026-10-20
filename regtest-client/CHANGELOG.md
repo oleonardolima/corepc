@@ -1,3 +1,7 @@
+# 0.18.0 - 2026-10-20
+
+- Make the leaf modules of each version module `pub(crate)` [#715](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/715)
+
 # 0.17.0 - 2026-09-17
 
 - Initial release. The blocking, version-specific JSON-RPC clients were split out of the
