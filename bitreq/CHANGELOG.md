@@ -2,7 +2,7 @@
 
 * Use `Duration` for `Request::with_timeout` [#642](https://github.com/rust-bitcoin/corepc/pull/642)
 * Add SOCKS5 proxy support [#533](https://github.com/rust-bitcoin/corepc/pull/533)
-* Bump `rustls` to `v0.23.45` and `rustls-webpki` to `v0.103.15` to address RUSTSEC-2026-0285 [#713](https://gitea.bitcoin.ninja/rust-bitcoin/corepc/pulls/713)
+* Bump `rustls` to `v0.23.45` and `rustls-webpki` to `v0.103.15` to address RUSTSEC-2026-0285 [#713](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/713)
 
 # 0.3.7 - 2026-05-28
 

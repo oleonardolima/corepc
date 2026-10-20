@@ -1,7 +1,7 @@
 # 0.42.0 - 2026-09-17
 
-- Only use the downloaded executable if it exists [#709](https://github.com/rust-bitcoin/corepc/pull/709)
-- Wait after kill [#710](https://github.com/rust-bitcoin/corepc/pull/710)
+- Only use the downloaded executable if it exists [#709](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/709)
+- Wait after kill [#710](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/710)
 - Bump `anyhow` dependency to fix RUSTSEC-2026-0190 [#651](https://github.com/rust-bitcoin/corepc/pull/651)
 - Upgrade to latest version of `bitcoind` and `corepc-regtest-client`
 

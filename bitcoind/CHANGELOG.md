@@ -1,7 +1,7 @@
 # 0.42.0 - 2026-09-17
 
-- Add support for Bitcoin Core v31.1 [#671](https://github.com/rust-bitcoin/corepc/pull/671)
-- Use `corepc-regtest-client` for the regtest clients [#681](https://github.com/rust-bitcoin/corepc/pull/681)
+- Add support for Bitcoin Core v31.1 [#671](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/671)
+- Use `corepc-regtest-client` for the regtest clients [#681](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/681)
 - Bump `anyhow` dependency to fix RUSTSEC-2026-0190 [#651](https://github.com/rust-bitcoin/corepc/pull/651)
 - Upgrade to latest version of `corepc-regtest-client`
 
