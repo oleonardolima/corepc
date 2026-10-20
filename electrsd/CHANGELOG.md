@@ -1,3 +1,7 @@
+# 0.43.2 - 2026-10-20
+
+- Upgrade to `bitreq v0.4.3` to pick up `webpki-roots v1.0.10` and `rustls-webpki v0.103.16`, which fixes RUSTSEC-2026-0381 and RUSTSEC-2026-0382.
+
 # 0.43.1 - 2026-10-20
 
 - Upgrade to `bitreq v0.4.2` to pick up `rustls v0.23.46`, which fixes RUSTSEC-2026-0346,

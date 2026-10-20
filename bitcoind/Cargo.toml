@@ -1,6 +1,6 @@
 [package]
 name = "bitcoind"
-version = "0.43.1"
+version = "0.43.2"
 authors = ["Riccardo Casatta <riccardo@casatta.it>", "Tobin C. Harding <me@tobin.cc>"]
 license = "MIT"
 repository = "https://git.rust-bitcoin.org/rust-bitcoin/corepc"
@@ -26,7 +26,7 @@ env_logger = { version = "0.9.3", default-features = false }
 [build-dependencies]
 anyhow = { version = "1.0.103", optional = true }
 bitcoin_hashes = { version = ">= 0.13, <= 0.14", optional = true }
-bitreq = { version = "0.4.2", path = "../bitreq", features = ["https"], optional = true }
+bitreq = { version = "0.4.3", path = "../bitreq", features = ["https"], optional = true }
 
 # Please note, it is expected that a single version feature will be enabled however if you enable
 # multiple the highest version number will take precedence.
