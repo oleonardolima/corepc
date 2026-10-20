@@ -26,13 +26,13 @@ are reviewed and corrected by the person responsible for the contribution before
 work that is substantially written by an LLM must be disclosed in the commit message or PR
 description.
 
-**Please do not use `corepc-client` in production and raise bugs, issues, or feature requests.**
+**Please do not use `corepc-regtest-client` in production and raise bugs, issues, or feature requests.**
 
 ## Crate/directory listing
 
 - `bitcoind/`: [`bitcoind`](https://crates.io/crates/bitcoind): Runs `bitcoind` regtest nodes.
 - `bitreq/`: [`bitreq`](https://crates.io/crates/bitreq): Simple, minimal-dependency HTTP client, with optional features for proxies, async, and https.
-- `client/`: [`corepc-client`](https://crates.io/crates/corepc-client): A blocking JSON-RPC client used to test `corepc-types`.
+- `client/`: [`corepc-client`](https://crates.io/crates/corepc-client): Async JSON-RPC client for Bitcoin Core.
 - `regtest-client/`: [`corepc-regtest-client`](https://crates.io/crates/corepc-regtest-client): Blocking JSON-RPC client for integration/regtest testing.
 - `contrib/`: Contains scripts including one to run local regtest `bitcoind` nodes using versions specified in the config file. A template config file and bitcoind aliases are in the subdirectory `templates/`
 - `electrsd/`: [`electrsd`](https://crates.io/crates/electrsd): Utility to run a regtest [electrs](https://crates.io/crates/electrs) process connected to a given [bitcoind](https://crates.io/crates/bitcoind) instance.

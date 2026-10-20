@@ -1,8 +1,18 @@
+# 0.4.2 - 2026-10-20
+
+* Bump the rustls version to v0.23.46 to fix: RUSTSEC-2026-0348, RUSTSEC-2026-0349 and RUSTSEC-2026-0346
+
+# 0.4.1 - 2026-10-20
+
+* Flush requests before reading responses [#705](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/705)
+* Retry requests on a stale socket when request-sending fails [#692](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/692)
+* Ensure a cancelled request can't stall non-pipelined requests [#695](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/695)
+
 # 0.4.0 - 2026-09-17
 
 * Use `Duration` for `Request::with_timeout` [#642](https://github.com/rust-bitcoin/corepc/pull/642)
 * Add SOCKS5 proxy support [#533](https://github.com/rust-bitcoin/corepc/pull/533)
-* Bump `rustls` to `v0.23.45` and `rustls-webpki` to `v0.103.15` to address RUSTSEC-2026-0285 [#713](https://gitea.bitcoin.ninja/rust-bitcoin/corepc/pulls/713)
+* Bump `rustls` to `v0.23.45` and `rustls-webpki` to `v0.103.15` to address RUSTSEC-2026-0285 [#713](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/713)
 
 # 0.3.7 - 2026-05-28
 

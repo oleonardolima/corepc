@@ -150,7 +150,7 @@ dependencies = [
 
 [[package]]
 name = "bitcoind"
-version = "0.42.0"
+version = "0.43.1"
 dependencies = [
  "anyhow",
  "bitcoin_hashes",
@@ -177,7 +177,7 @@ checksum = "c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3"
 
 [[package]]
 name = "bitreq"
-version = "0.4.0"
+version = "0.4.2"
 dependencies = [
  "base64 0.22.1",
  "log",
@@ -257,7 +257,7 @@ checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 
 [[package]]
 name = "corepc-client"
-version = "0.17.0"
+version = "0.18.0"
 dependencies = [
  "bitcoin",
  "corepc-types",
@@ -269,7 +269,7 @@ dependencies = [
 
 [[package]]
 name = "corepc-regtest-client"
-version = "0.17.0"
+version = "0.18.0"
 dependencies = [
  "bitcoin",
  "corepc-types",
@@ -290,7 +290,7 @@ dependencies = [
 
 [[package]]
 name = "electrsd"
-version = "0.42.0"
+version = "0.43.1"
 dependencies = [
  "anyhow",
  "bitcoin_hashes",
@@ -974,9 +974,9 @@ dependencies = [
 
 [[package]]
 name = "rustls"
-version = "0.23.45"
+version = "0.23.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0d41d731c7d2f962d1ccc364cec258de3c0e93b38c2fb3ba97ac74513048d634"
+checksum = "48e13bd8c0e9365c43cfa5c9e8f9ad49d3c8444926c9aac819e0e4dc503c8fdf"
 dependencies = [
  "once_cell",
  "ring",

@@ -1,7 +1,20 @@
+# 0.43.1 - 2026-10-20
+
+- Upgrade to `bitreq v0.4.2` to pick up `rustls v0.23.46`, which fixes RUSTSEC-2026-0346,
+  RUSTSEC-2026-0348 and RUSTSEC-2026-0349
+
+# 0.43.0 - 2026-10-20
+
+- Use system `tar` for Bitcoin Core downloads, removing the `tar`, `flate2`, and `zip`
+  dependencies [#720](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/720)
+- Upgrade to latest version of `corepc-regtest-client`
+
+The `download` feature now requires `tar` in `PATH` (`gzip` is also needed with GNU tar).
+
 # 0.42.0 - 2026-09-17
 
-- Add support for Bitcoin Core v31.1 [#671](https://github.com/rust-bitcoin/corepc/pull/671)
-- Use `corepc-regtest-client` for the regtest clients [#681](https://github.com/rust-bitcoin/corepc/pull/681)
+- Add support for Bitcoin Core v31.1 [#671](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/671)
+- Use `corepc-regtest-client` for the regtest clients [#681](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/681)
 - Bump `anyhow` dependency to fix RUSTSEC-2026-0190 [#651](https://github.com/rust-bitcoin/corepc/pull/651)
 - Upgrade to latest version of `corepc-regtest-client`
 

@@ -1,7 +1,19 @@
+# 0.43.1 - 2026-10-20
+
+- Upgrade to `bitreq v0.4.2` to pick up `rustls v0.23.46`, which fixes RUSTSEC-2026-0346,
+  RUSTSEC-2026-0348 and RUSTSEC-2026-0349
+
+# 0.43.0 - 2026-10-20
+
+- Use system `unzip` for electrs downloads, removing the `zip` dependency [#720](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/720)
+- Upgrade to latest version of `bitcoind` and `corepc-regtest-client`
+
+Automatic downloads now require `unzip` in `PATH`.
+
 # 0.42.0 - 2026-09-17
 
-- Only use the downloaded executable if it exists [#709](https://github.com/rust-bitcoin/corepc/pull/709)
-- Wait after kill [#710](https://github.com/rust-bitcoin/corepc/pull/710)
+- Only use the downloaded executable if it exists [#709](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/709)
+- Wait after kill [#710](https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/710)
 - Bump `anyhow` dependency to fix RUSTSEC-2026-0190 [#651](https://github.com/rust-bitcoin/corepc/pull/651)
 - Upgrade to latest version of `bitcoind` and `corepc-regtest-client`
 

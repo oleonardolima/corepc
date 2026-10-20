@@ -18,7 +18,7 @@ pub extern crate bitcoin;
 pub extern crate types;
 
 #[cfg(feature = "client-sync")]
-#[deprecated(since = "TBD", note = "use the `corepc-regtest-client` crate instead")]
+#[deprecated(since = "0.17.0", note = "use the `corepc-regtest-client` crate instead")]
 #[macro_use]
 pub mod client_sync;
 

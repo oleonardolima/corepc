@@ -10,8 +10,9 @@ and the `corepc` integration test suite.
 
 ## History
 
-This crate was split from `corepc-client` at **v0.16.0** to separate the blocking,
-version-specific integration/regtest client from the production async client. See issue #674.
+This crate was split from `corepc-client` at **v0.17.0** to separate the blocking,
+version-specific integration/regtest client from the production async client. See issue
+[#674](https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/674).
 
 ## Minimum Supported Rust Version (MSRV)
 
