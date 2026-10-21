@@ -1,3 +1,7 @@
+# 0.4.3 - 2026-10-20
+
+* Bump `webpki-roots` to v1.0.10 and `rustls-webpki` to v0.103.16, which fixes RUSTSEC-2026-0381 and RUSTSEC-2026-0382.
+
 # 0.4.2 - 2026-10-20
 
 * Bump the rustls version to v0.23.46 to fix: RUSTSEC-2026-0348, RUSTSEC-2026-0349 and RUSTSEC-2026-0346
